@@ -1,0 +1,11 @@
+{
+  "name": "type-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github:bibi941/type-challenge.git",
+  "author": "bibi941 <sssrrr@vip.qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.8.1"
+  }
+}
