@@ -1,7 +1,7 @@
 {
 
   type myReadonly<T> = {
-    +readonly [key in keyof T]: T[key]
+    readonly [key in keyof T]: T[key]
   }
   
 
@@ -11,7 +11,10 @@
   }
 
 
-
+let todo:myReadonly<Todo> = {
+  title:'kiki',
+  description:'dd'
+}
 
 
   todo.title = "Hello" // Error: cannot reassign a readonly property
