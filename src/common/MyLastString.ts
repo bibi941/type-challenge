@@ -1,4 +1,3 @@
-import { last, result } from "lodash"
 
 // 实现一个通用LastString<T>，它接受一个String并返回其最后一个字符
 {
